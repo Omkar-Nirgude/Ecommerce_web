@@ -58,8 +58,8 @@ const Product = (prop) => {
                 <p data-aos="fade-up" className='text-sm text-primary'>
                     Top Selling Product for you
                 </p>
-                <h1 className='data-aos="fade-up' className="text-3xl fond-bold">
-                   {prop.title} Products
+                <h1 data-aos="fade-up" className="text-3xl font-bold">
+                  {prop.title} Products
                 </h1>
                 <p data-aos="fade-up" className="text-xs text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nobis ipsam quaerat!
