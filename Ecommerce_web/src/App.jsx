@@ -6,6 +6,7 @@ import TopProduct from './components/TopProduct/TopProduct'
 import Banner from './components/Banner/Banner'
 import Subscribe from './components/Subscribe/Subscribe'
 import Testimonials from './components/Testimonials/Testimonials'
+import Footer from './components/Footer/Footer'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
       <Subscribe />
       <Product title={"Top Selling "} />
       <Testimonials/>
+      <Footer/>
     </div>
   )
 }
