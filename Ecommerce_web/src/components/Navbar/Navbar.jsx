@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/logo.png";
 
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping, FaCaretDown } from "react-icons/fa6";
