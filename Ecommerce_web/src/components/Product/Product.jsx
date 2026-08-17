@@ -50,7 +50,7 @@ const ProductsData = [
 ]; 
 
 
-const Product = (prop) => {
+const Product = () => {
   return (
     <div className='mt-14 mb-12'>
         <div className='container'>
@@ -59,7 +59,7 @@ const Product = (prop) => {
                     Top Selling Product for you
                 </p>
                 <h1 data-aos="fade-up" className="text-3xl font-bold">
-                  {prop.title} Products
+                  Top Selling Products
                 </h1>
                 <p data-aos="fade-up" className="text-xs text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nobis ipsam quaerat!
